@@ -1,0 +1,24 @@
+h1 {
+    color: aquamarine;
+    text-align: center;
+    text-decoration: underline;
+    color: chartreuse;
+    text-indent: 30px;
+}
+
+h2 {
+    text-align: center;
+    text-transform: initial;
+    color: aqua;
+}
+
+h3{
+    text-align: center;
+    text-decoration: line-through;
+    color: brown;
+}
+p {
+    text-align: center;
+    letter-spacing: normal;
+    color: brown;
+}

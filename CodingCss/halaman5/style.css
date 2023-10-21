@@ -1,0 +1,11 @@
+body{
+    background-color: lightblue;
+    background-image: url(/1295516.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+h1 {
+    font-family: 'Times New Roman';
+    color: darkblue;
+}
