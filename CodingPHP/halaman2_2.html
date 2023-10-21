@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Summon 2 Gambar</title>
+</head>
+<body>
+    <h1>Summon 2 Gambar</h1>
+
+    <!-- Tombol untuk memanggil kedua gambar -->
+    <button onclick="tampilkanGambar()">Summon Gambar</button>
+
+    <!-- Container untuk kedua gambar -->
+    <div id="gambar-container" style="display: none;">
+        <img src="/kokomi.jpg" alt="Gambar 1">
+        <img src="/yae.jpg" alt="Gambar 2">
+    </div>
+
+    <script>
+        var gambarDitampilkan = false;
+
+        function tampilkanGambar() {
+            var container = document.getElementById("gambar-container");
+
+            if (!gambarDitampilkan) {
+                container.style.display = "block";
+                gambarDitampilkan = true;
+            } else {
+                container.style.display = "none";
+                gambarDitampilkan = false;
+            }
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>javascript can change images</h1>
+    <img id="myImage" src="" alt="" onclick="changeImage ()" src="/kokomi.jpg" width="100" height="180">
+    <p>Click the image to change image.</p>
+    <script>
+        function changeImage() {
+            var image = document.getElementById('myImage');
+            if (image.src.match("yae.jpg")) {
+                image.src = "kokomi.jpg";
+            }else{
+                image.src = "yae.jpg";
+            }
+        }
+    </script>
+</body>
+</html>
